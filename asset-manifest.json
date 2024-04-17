@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Carbon-Footprint-Calculator/static/css/main.cf061b59.css",
-    "main.js": "/Carbon-Footprint-Calculator/static/js/main.55a50335.js",
+    "main.js": "/Carbon-Footprint-Calculator/static/js/main.a8d97268.js",
     "static/js/453.50a83da2.chunk.js": "/Carbon-Footprint-Calculator/static/js/453.50a83da2.chunk.js",
     "static/media/logo.svg": "/Carbon-Footprint-Calculator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Carbon-Footprint-Calculator/index.html",
     "main.cf061b59.css.map": "/Carbon-Footprint-Calculator/static/css/main.cf061b59.css.map",
-    "main.55a50335.js.map": "/Carbon-Footprint-Calculator/static/js/main.55a50335.js.map",
+    "main.a8d97268.js.map": "/Carbon-Footprint-Calculator/static/js/main.a8d97268.js.map",
     "453.50a83da2.chunk.js.map": "/Carbon-Footprint-Calculator/static/js/453.50a83da2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf061b59.css",
-    "static/js/main.55a50335.js"
+    "static/js/main.a8d97268.js"
   ]
 }
