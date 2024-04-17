@@ -1,0 +1,125 @@
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .cityList {
+    padding-right: 24px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* Improved Padding and Margins */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px; /* Add padding to the entire application */
+  font-family: Georgia, serif; /* Change font family to serif */
+}
+
+.cityList {
+  padding-right: 24px; /* Reduce padding for smaller screens */
+}
+
+.cityInfo {
+  margin-bottom: 10px; /* Increase margin for better separation */
+  padding: 20px; /* Increase padding for better spacing */
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/* Updated Colors */
+.cityInfo.good {
+  background-color: #52B947;
+  color: #000000;
+}
+
+.cityInfo.moderate {
+  background-color: #F3EC19;
+  color: #000000;
+}
+
+.cityInfo.unhealthy-sentitive {
+  background-color: #F57E20;
+  color: #FFFFFF;
+}
+
+.cityInfo.unhealthy {
+  background-color: #ED1D24;
+  color: #FFFFFF;
+}
+
+.cityInfo.very-unhealthy {
+  background-color: #7E2B7D;
+  color: #FFFFFF;
+}
+
+.cityInfo.hazardous {
+  background-color: #480D27;
+  color: #FFFFFF;
+}
+
+.cityInfo.unknown {
+  background-color: #ebebeb;
+  color: #000000;
+}
+
+.cityInfo .details {
+  background-color: #ebebeb;
+  color: #000000;
+  margin: 10px 0; /* Adjust margins for better spacing */
+  padding: 15px; /* Adjust padding for better spacing */
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.dot {
+  height: 12px;
+  width: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px; /* Increase margin for better separation */
+  margin-top: 2px;
+}
+
+.no-data-found {
+  background-color: #000;
+  color: #4caf50;
+  border-radius: 10px;
+  padding: 15px; /* Adjust padding for better spacing */
+}
+
+/* Add styles for search bar */
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding: 10px 30px; /* Adjust padding to make space for the search icon */
+  width: 100%; /* Adjust width as needed */
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Style the search icon */
+.search-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .search-input {
+    padding: 10px 20px; /* Reduce padding for smaller screens */
+  }
+}
